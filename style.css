@@ -1,0 +1,48 @@
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+  }
+
+  .cover{
+      margin: 0;
+      padding:0;
+    background-image: url("icons/cover3.jpg");
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    }
+.header-area {
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    text-align:center;
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 4.5sem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.header-area h2 span{
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+.skills{
+    position: absolute;
+    top: 20rem;
+
+    width: 18rem;
+}
+.section1{
+    height: fit-content;
+
+}
+.section2{
+    font-family: 'Poppins', sans-serif;
+    height: 600px;
+}
+
+    
